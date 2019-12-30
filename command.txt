@@ -1,0 +1,7 @@
+#构建
+docker build --no-cache -t nodegitsvnbase:v1.1  .
+docker build -t nodegitsvnbase:v1.1 .
+
+
+#run
+docker run -it --rm --name nodesvnbase nodegitsvnbase:v1.0 bash
