@@ -1,0 +1,8 @@
+FROM sxyengene/centos7node10:latest
+
+LABEL maintainer="sunxiongying@myhexin.com"
+
+RUN jq --version
+
+#    yum update wget && yum install -y wget && \
+#    yum update -y gcc-c++ && yum install -y gcc-c++
